@@ -9,7 +9,7 @@ document.getElementById("newInput").addEventListener("click", function (event) {
 
 var app = angular.module('Console', [ 'ngSanitize' ]);
 		app.controller('consoleController',['$scope','$filter','$http','$sce', function($scope, $filter, $http) {
-									$scope.userName = "seijee:~ $ ";
+									$scope.userName = "baserarpit:~ $ ";
 									$scope.history = [];
 									$scope.commands = [
 											 {'cmd' : 'hostname','description' : 'view a short introduction about me'}
@@ -37,8 +37,8 @@ var app = angular.module('Console', [ 'ngSanitize' ]);
 											'title' 		: 'VFFIX'
 											,'company'		: 'Amdocs - Vodafone'
 											,'description' 	: 'VFFIX is to support Vodafone UK Fixed Network project. It uses Amdocs CRM and ordering system.Its main functionalities are to master the customer data and to provide Order Management.'
-															+ '<br/>\tMy Contribution:'
-															+ '<br/>\t\t-Analysed & Fixed various CRM, OMS & Integration Issues'
+															+ '<br/>My Contribution:'
+															+ '<br/>-Analysed & Fixed various CRM, OMS & Integration Issues'
 											,'link'			: ''
 											,'skills'		: ''
 											},
@@ -52,7 +52,7 @@ var app = angular.module('Console', [ 'ngSanitize' ]);
 											{	
 											'title' 		: 'Online Gift Shop'
 											,'company'		: 'Academic Project'
-											,'description' 	: 'developed the website on Java language where users can purchase various gifts online'
+											,'description' 	: 'developed the website on Java language where users can purchase various gifts online.'
 											,'link'			: ''
 											,'skills'		: ''
 											},
@@ -70,7 +70,7 @@ var app = angular.module('Console', [ 'ngSanitize' ]);
 												function(project, key) {
 													var pdescription = project.description;
 													if (project.link != '') pdescription = "<a href='"+project.link+"' target='_blank'>"+project.link+"</a><br/>"+project.description;
-													result += "<tr><td class='pre'>"+ project.title + "</td><td>" + pdescription + "</td></tr>";
+													result += "<tr><td class='pre'>"+ project.title + "</td><td class='pre'>"+ project.company +"</td><td>" + pdescription + "</td></tr>";
 													result += "<tr><td class='pre'> </td><td> </td></tr>";
 												});
 										result += '</table>';
@@ -88,12 +88,12 @@ var app = angular.module('Console', [ 'ngSanitize' ]);
 												result = '';
 												break;
 											case 'contact':
-												result 	= "mob\t\t: (+91) 9654999559"
+												result 	= "mobile\t\t: (+91) 9654999559"
 													+ "<br/>email\t\t: baserarpit@gmail.com<br/>";
 												break;
 											case 'hostname':
 												result = "Hello there! I'm Arpit Baser "
-														+"<br/>I'm working with Amdocs since August 2014 at Gurgaon location."
+														+"<br/>I'm working with Amdocs at Gurgaon location since August 2014"
 														+"<br/>I have done B.E. in computer science stream from Indore (M.P) "
 														+"<br/>"
 														+"<br/>";
