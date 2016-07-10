@@ -60,8 +60,8 @@ var app = angular.module('Console', [ 'ngSanitize' ]);
 											{	
 											'title' 		: 'E-HealthCare'
 											,'company'		: 'Academic Project'
-											,'description' 	: 'developed the website for “Pragyasager Academy” a newly openned college in central India. website is fully responsive'
-											,'link'			: 'developed the website on Java language which provides various health-tips to the users and can determine the probable disease on the basis of symtoms provided by user.'
+											,'description' 	: 'developed the website on Java language which provides various health-tips to the users and can determine the probable disease on the basis of symtoms provided by user.'
+											,'link'			: ''
 											,'skills'		: ''
 											}
 									];
@@ -71,7 +71,7 @@ var app = angular.module('Console', [ 'ngSanitize' ]);
 												function(project, key) {
 													var pdescription = project.description;
 													if (project.link != '') pdescription = "<a href='"+project.link+"' target='_blank'>"+project.link+"</a><br/>"+project.description;
-													result += "<tr><td class='pre'>"+ project.title + "</td><td>" + pdescription + "</td></tr>";
+													result += "<tr><td class='pre'>"+ project.title + "</td><td class='pre'>"+ projects.company + "</td><td>" + pdescription + "</td></tr>";
 													result += "<tr><td class='pre'> </td><td> </td></tr>";
 												});
 										result += '</table>';
