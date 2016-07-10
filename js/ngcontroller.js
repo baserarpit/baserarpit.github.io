@@ -34,34 +34,33 @@ var app = angular.module('Console', [ 'ngSanitize' ]);
 									
 									$scope.projects = [
 											{	
-											'title' 		: 'Managed Account List (MAL)'
-											,'company'		: 'TCS - Microsoft'
-											,'description' 	: 'A web application that works under close integration with Microsoft\'s CRM, Microsoft Sales Management and Microsoft\'s Data Operations System. The application is responsible for managing Microsoft\'s huge sales and accounting data to keep it in sync. Allowing  users  to perform  various  update  tasks  on  this  data  while  keeping  the  data  in  sync  with  external  systems.'
+											'title' 		: 'VFFIX'
+											,'company'		: 'Amdocs - Vodafone'
+											,'description' 	: 'VFFIX is to support Vodafone UK Fixed Network project. It uses Amdocs CRM and ordering system.Its main functionalities are to master the customer data and to provide Order Management.'
 															+ '<br/>\tMy Contribution:'
-															+ '<br/>\t\t-Implemented Multithreaded Search'
-															+ '<br/>\t\t-Developed MAL Discrepancy Analyser'
+															+ '<br/>\t\t-Analysed & Fixed various CRM, OMS & Integration Issues'
 											,'link'			: ''
 											,'skills'		: ''
 											},
 											{	
-											'title' 		: 'Crime  Analysis  Software '
-											,'company'		: 'C.I.D Madhya Pradesh Government'
-											,'description' 	: 'Developed  and  deployed  an online system to categorize FIR of various crimes lodged all over the province to generate reports, graphs and statistical data. This project is being used by Madhya Pradesh Police Department. (you can see my name in the source code :D)'
-											,'link'			: 'http://cid.mppolice.gov.in/crime_analysis'
-											,'skills'		: ''
-											},
-											{	
-											'title' 		: 'Rang Dey Zindagi'
-											,'company'		: 'NGO'
-											,'description' 	: 'developed the website for “Rang Dey Zindagi” a local NGO that works for less privileged students. Volunteered and tried to support the cause by providing it a means to enhance its reach'
+											'title' 		: 'Claro-Columbia'
+											,'company'		: 'Amdocs - Claro'
+											,'description' 	: 'It is to support the mobile services for - Claro Columbia. It uses Amdocs CRM,Amdocs Ordering and SRM. Its main functionalities are to manage the subscribers and to master the customer data.'
 											,'link'			: ''
 											,'skills'		: ''
 											},
 											{	
-											'title' 		: 'Pragyasagar Website'
-											,'company'		: 'Education Institute'
-											,'description' 	: 'developed the website for “Pragyasager Academy” a newly openned college in central India. website is fully responsive'
-											,'link'			: 'http://pragyasagar.ac.in'
+											'title' 		: 'Online Gift Shop'
+											,'company'		: 'Academic Project'
+											,'description' 	: 'developed the website on Java language where users can purchase various gifts online'
+											,'link'			: ''
+											,'skills'		: ''
+											},
+											{	
+											'title' 		: 'E-HealthCare'
+											,'company'		: 'Academic Project'
+											,'description' 	: 'developed the website on Java language which provides various health-tips to the users and can determine the probable disease on the basis of symtoms provided by user.'
+											,'link'			: ''
 											,'skills'		: ''
 											}
 									];
@@ -90,7 +89,7 @@ var app = angular.module('Console', [ 'ngSanitize' ]);
 												break;
 											case 'contact':
 												result 	= "mob\t\t: (+91) 9654999559"
-													+ "<br/>email\t: baserarpit@gmail.com<br/>";
+													+ "<br/>email\t\t: baserarpit@gmail.com<br/>";
 												break;
 											case 'hostname':
 												result = "Hello there! I'm Arpit Baser "
