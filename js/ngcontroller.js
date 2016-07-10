@@ -9,7 +9,7 @@ document.getElementById("newInput").addEventListener("click", function (event) {
 
 var app = angular.module('Console', [ 'ngSanitize' ]);
 		app.controller('consoleController',['$scope','$filter','$http','$sce', function($scope, $filter, $http) {
-									$scope.userName = "seijee:~ $ ";
+									$scope.userName = "baserarpit:~ $ ";
 									$scope.history = [];
 									$scope.commands = [
 											 {'cmd' : 'hostname','description' : 'view a short introduction about me'}
