@@ -89,15 +89,14 @@ var app = angular.module('Console', [ 'ngSanitize' ]);
 												result = '';
 												break;
 											case 'contact':
-												result 	= "mob\t\t: (+91) 709-380-3933"
-														+ "<br/>mob\t\t: (+91) 969-100-3933"
-														+ "<br/>email\t: charchitgupta18@gmail.com<br/>";
+												result 	= "mobile\t: (+91) 9654999559"
+														+ "<br/>email\t\t: baserarpit@gmail.com<br/>";
 												break;
 											case 'hostname':
-												result = "Hello there! my name is Charchit. "
-														+"<br/>I currently live in Chennai, working for a big product based MNC."
-														+"<br/>My hometown is Indore, the foodie city of Madhya Pradesh."
-														+"<br/>I am passionate about street-food, sketching and programming."
+												result = "Hello there! I'm Arpit Baser "
+														+"<br/>I'm working with Amdocs at Gurgaon location since August 2014"
+														+"<br/>I have done B.E. in computer science stream from Indore (M.P)"
+														+"<br/>"
 														+"<br/>";
 												break;
 											case 'resume':
