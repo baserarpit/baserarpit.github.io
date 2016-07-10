@@ -36,7 +36,7 @@ var app = angular.module('Console', [ 'ngSanitize' ]);
 											{	
 											'title' 		: 'VFFIX'
 											,'company'		: 'Amdocs - Vodafone'
-											,'description' 	: 'VFFIX is to support Vodafone UK Fixed Network project. It uses Amdocs CRM and ordering system.Its main functionalities are to master the customer data and to provide Order Management.'
+											,'description' 	: 'VFFIX is to support Vodafone UK Fixed Network project. It uses Amdocs CRM and ordering system. It's main functionalities are to master the customer data and to provide Order Management.'
 															+ '<br/>My Contribution:'
 															+ '<br/>-Analysed & Fixed various CRM, OMS & Integration Issues'
 											,'link'			: ''
@@ -45,21 +45,21 @@ var app = angular.module('Console', [ 'ngSanitize' ]);
 											{	
 											'title' 		: 'Claro-Columbia'
 											,'company'		: 'Amdocs - Claro'
-											,'description' 	: 'It is to support the mobile services for - Claro Columbia. It uses Amdocs CRM,Amdocs Ordering and SRM. Its main functionalities are to manage the subscribers and to master the customer data.'
+											,'description' 	: 'It is to support the mobile services for Claro-Columbia. It uses Amdocs CRM,Amdocs Ordering and SRM. Its main functionalities are to manage the subscribers and to master the customer data.'
 											,'link'			: ''
 											,'skills'		: ''
 											},
 											{	
 											'title' 		: 'Online Gift Shop'
 											,'company'		: 'Academic Project'
-											,'description' 	: 'developed the website on Java language where users can purchase various gifts online.'
+											,'description' 	: 'Developed the website on Java language where users can purchase various gifts online.'
 											,'link'			: ''
 											,'skills'		: ''
 											},
 											{	
 											'title' 		: 'E-HealthCare'
 											,'company'		: 'Academic Project'
-											,'description' 	: 'developed the website on Java language which provides various health-tips to the users and can determine the probable disease on the basis of symtoms provided by user.'
+											,'description' 	: 'Developed the website on Java language which provides various health-tips to the users and can determine the probable disease on the basis of symtoms provided by user.'
 											,'link'			: ''
 											,'skills'		: ''
 											}
@@ -88,7 +88,7 @@ var app = angular.module('Console', [ 'ngSanitize' ]);
 												result = '';
 												break;
 											case 'contact':
-												result 	= "mobile\t\t: (+91) 9654999559"
+												result 	= "mobile\t: (+91) 9654999559"
 													+ "<br/>email\t\t: baserarpit@gmail.com<br/>";
 												break;
 											case 'hostname':
