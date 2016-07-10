@@ -95,7 +95,7 @@ var app = angular.module('Console', [ 'ngSanitize' ]);
 											case 'hostname':
 												result = "Hello there! I'm Arpit Baser "
 														+"<br/>I'm working with Amdocs since August 2014 at Gurgaon location."
-														+"<br/>I have done my Engineering(BE) in computer science stream from Indore (M.P) "
+														+"<br/>I have done B.E. in computer science stream from Indore (M.P) "
 														+"<br/>"
 														+"<br/>";
 												break;
