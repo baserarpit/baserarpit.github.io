@@ -71,7 +71,7 @@ var app = angular.module('Console', [ 'ngSanitize' ]);
 												function(project, key) {
 													var pdescription = project.description;
 													if (project.link != '') pdescription = "<a href='"+project.link+"' target='_blank'>"+project.link+"</a><br/>"+project.description;
-													result += "<tr><td class='pre'>"+ project.title + "</td><td class='pre'>"+ projects.company + "</td><td>" + pdescription + "</td></tr>";
+													result += "<tr><td class='pre'>"+ project.title + "</td><td class='pre'>"+ project.company + "</td><td>" + pdescription + "</td></tr>";
 													result += "<tr><td class='pre'> </td><td> </td></tr>";
 												});
 										result += '</table>';
