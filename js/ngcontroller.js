@@ -36,7 +36,7 @@ var app = angular.module('Console', [ 'ngSanitize' ]);
 											{	
 											'title' 		: 'Vodafone Fixed (vffix)'
 											,'company'		: 'Amdocs - Vodafone'
-											,'description' 	: 'vffix is to support Vodafone UK Fixed Network project. It uses Amdocs CRM and ordering system. It\'s main functionalities are to master the customer data and to provide Order Management.'
+											,'description' 	: 'vffix is to manage Vodafone UK Fixed Network project which uses CRM and ordering system. Its main functionalities are to master the customer data and to provide Order Management.'
 															+ '<br/>My Contribution:'
 															+ '<br/>\t-Analysed and Fixed various CRM, OMS and Integration Issues'
 															+ '<br/>'
@@ -46,7 +46,7 @@ var app = angular.module('Console', [ 'ngSanitize' ]);
 											{	
 											'title' 		: 'Claro-Columbia'
 											,'company'		: 'Amdocs - Claro'
-											,'description' 	: 'It is to support the mobile services for Claro-Columbia. It uses Amdocs CRM,Amdocs Ordering and SRM. It\'s main functionalities are to manage the subscribers and to master the customer data.'
+											,'description' 	: 'It is to manage the mobile services for Claro-Columbia which uses CRM, Ordering and SRM. Its main functionalities are to manage the subscribers and to master the customer data.'
 											,'link'			: ''
 											,'skills'		: ''
 											},
