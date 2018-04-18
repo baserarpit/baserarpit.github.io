@@ -87,12 +87,10 @@ var app = angular.module('Console', [ 'ngSanitize' ]);
 														+ "<br/>email\t\t: baserarpit@gmail.com<br/>";
 												break;
 											case 'hostname':
-												result = "Hello there! I'm Arpit Baser "
-													        +"<br/>"
+												result = "Hello there! I'm Arpit Baser "													       
 													        +"<br/>Experience:"
 														+"<br/>I'm working with Ericsson at Pune location since May 2017"
-													        +"<br/>I have worked with Amdocs from August 2014 to May 2017"
-													        +"<br/>"
+													        +"<br/>I have worked with Amdocs from August 2014 to May 2017"													        
 													        +"<br/>Higest Education:"
 														+"<br/>I have done B.E. in computer science stream from Indore (M.P)"
 														+"<br/>"
