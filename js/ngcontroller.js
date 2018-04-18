@@ -84,7 +84,7 @@ var app = angular.module('Console', [ 'ngSanitize' ]);
 												break;
 											case 'contact':
 												result 	= "mobile\t: (+91) 9654999559"
-														+ "<br/>email\t\t: baserarpit@gmail.com<br/>";
+														+ "<br/>email\t: baserarpit@gmail.com<br/>";
 												break;
 											case 'hostname':
 												result = "Hello there! I'm Arpit Baser "													       
