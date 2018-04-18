@@ -33,37 +33,31 @@ var app = angular.module('Console', [ 'ngSanitize' ]);
 									};
 									
 									$scope.projects = [
+										       {	
+											'title' 		: 'TSTT'
+											,'company'		: 'Ericsson'
+											,'client'		: 'TSTT'
+											,'description' 	        : 'This is telecom based project for Trinidad and Tobago country. It uses Ericsson Order Care (EOC), Ericsson Catalog Manager (ECM), Ericsson Multi Activation (EMA) tools for Order Capturing, Service Order Fulfillment and Activation of network elements over the real time network.'
+											,'link'			: ''
+											,'skills'		: ''
+											},										
 											{	
-											'title' 		: 'Vodafone Fixed (vffix)'
-											,'company'		: 'Amdocs - Vodafone'
-											,'description' 	: 'vffix is to manage Vodafone UK Fixed Network project which uses CRM and ordering system. Its main functionalities are to master the customer data and to provide Order Management.'
-															+ '<br/>My Contribution:'
-															+ '<br/>\t-Analysed and Fixed various CRM, OMS and Integration Issues'
-															+ '<br/>'
+											'title' 		: 'ATTE'
+											,'company'		: 'Amdocs'
+											,'client'		: 'AT&T'
+											,'description' 	        : 'It is to manage the mobile services for AT&T Enterprise which uses Amdocs Ordering, CRM and SRM. Its main functionalities are to provide Order Management, to master the customer data and to manage the subscribers.'
 											,'link'			: ''
 											,'skills'		: ''
 											},
 											{	
-											'title' 		: 'Claro-Columbia'
-											,'company'		: 'Amdocs - Claro'
-											,'description' 	: 'It is to manage the mobile services for Claro-Columbia which uses CRM, Ordering and SRM. Its main functionalities are to manage the subscribers and to master the customer data.'
+											'title' 		: 'VFFIX'
+											,'company'		: 'Amdocs'
+											,'client'		: 'Vodafone UK'
+											,'description' 	        : 'VFFIX is to manage Vodafone UK Network project which uses ordering system and CRM. Its main functionalities are to provide Order Management and to master the customer data.'
 											,'link'			: ''
 											,'skills'		: ''
-											},
-											{	
-											'title' 		: 'Online Gift Shop'
-											,'company'		: 'Academic Project'
-											,'description' 	: 'developed the website on Java language where users can purchase various gifts online.'
-											,'link'			: ''
-											,'skills'		: ''
-											},
-											{	
-											'title' 		: 'E-HealthCare'
-											,'company'		: 'Academic Project'
-											,'description' 	: 'developed the website on Java language which provides various health-tips to the users and can determine the probable disease on the basis of symtoms provided by user.'
-											,'link'			: ''
-											,'skills'		: ''
-											}
+											}										
+											
 									];
 									function getProjectList(){
 										var result = '<table class="projects">';
